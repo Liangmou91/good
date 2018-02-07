@@ -1,0 +1,100 @@
+/*header*/
+#head{position: relative;}
+#head .nav_top{height: 55px; font-size: 14px; line-height: 55px; 
+	background: url(../images/bg_nav_top.jpg) repeat-x repeat-y;}
+#head .nav_top ul{width: 1200px; margin: 0 auto;}
+#head .nav_top ul li.name{float: left; color:#333;}
+#head .nav_top ul li.tel{float: right; color:#1D4D37;}
+#head .nav{height: 110px; border-top: 5px solid #1D4D37;}
+#head .nav ul{width: 1200px; margin:0 auto;}
+#head .nav ul li{width: 120px; float: left; height: 84px; text-align: center;
+	padding-top: 20px; font-size: 18px; background:url(../images/n03.jpg) no-repeat center -88px;
+	transition:all .5s linear;}
+#head .nav ul li:hover{ background:url(../images/n03.jpg) no-repeat center top;}
+#head .nav ul li a{ color: #333;}
+#head .nav ul li:hover a{color:#fff;}
+#head .nav ul li a span{font-size: 14px; padding-top: 10px; display: block;}
+#head .nav ul li.middle{margin-right: 200px;}
+#head img#logo{position: absolute; top: 10px; left: 42.7%;
+	animation: logo_scale 2s linear; z-index: 6;}
+@keyframes logo_scale{
+	from{transform:scale(2)}
+	to{transform: scale(1);}
+}
+
+/*banner*/
+#banner{position: relative; top: -30px;}
+#banner dl dt img{width: 100%; height: 400px;}
+#banner dl dd.btn{background: #00AEF3; position: fixed; right: 20px; border-radius: 5px; top: 300px; cursor: pointer;}
+
+/*section*/
+section{height: 2400px;}
+section .con_top ul,section .con_for_top ul{position: relative; width: 100%; padding-top: 50px;}
+section .con_top ul li,section .con_for_top ul li{width: 100%; text-align: center;}
+section .con_top ul li.text,section .con_for_top ul li.text{height: 30px; line-height: 30px;}
+section .con_top ul li.t,section .con_for_top ul li.t{color: #1D4D37; font-size: 14px; width: 360px;
+	 margin: 0 auto; background: #fff; position: relative; z-index: 9;}
+section .con_top ul li.b,section .con_for_top ul li.b{font-weight: 12px; color: #A0A1A1;}
+section .con_top ul li.bg,section .con_for_top ul li.bg{ height: 1px; border-top: 1px solid #ddd;
+	position: absolute; top: 170px; z-index: 2;}
+section .con_thi_bot ul{width: 150px; margin:30px 650px;}
+section .con_thi_bot ul li{ width: 140px; font-size: 14px; height: 40px;
+	line-height: 40px; text-align: center; border:1px solid #ccc; margin-left: 50px;
+	border-radius: 25px; color: #000;}
+
+section .con_bot{width: 1200px; margin: 30px auto;}
+section .con_bot dl{width: 350px; float: left; margin-left: 30px; border:1px solid #ccc; margin-bottom: 20px;}
+section .con_bot dl dt{ width: 350px; height: 250px; overflow: hidden;}
+section .con_bot dl dt img{width: 350px;}
+section .con_bot dl dd{width: 330px; font-size: 14px; font-weight: bold; height: 40px; 
+	line-height: 40px; color: #000; padding-left: 20px;}
+section .con_bot dl:hover img{transform: scale(1.2); transition: 3s;}
+
+
+
+section dl.bott{width: 278px; height: 250px; margin-left: 20px; float: left; position: relative; 
+	margin-top: 50px; border:1px solid #ccc;}
+section dl.bott dt{width: 278px; height: 200px;}
+section dl.bott dt img{width: 278px; height: 200px;}
+section dl.bott dd.btn{width: 80px; color: #fff; height: 30px; line-height: 30px;
+	text-align: center; background: #FF70A6; border-radius: 5px; position: absolute; bottom: 70px;
+	right: 10px; cursor: pointer; padding: 0;}
+section dl.bott dd.bo{width: 268px; height: 30px; line-height: 60px; background: #fff; font-size: 14px;
+	padding-left: 10px; color: #000;} 
+section .dong{width: 1140px; margin: 0 auto;}
+
+
+
+
+
+
+/*footer*/
+footer{width: 100%; background: #113926; height: 600px;}
+footer #footer_top{width: 100%; height: 200px; border-bottom: 1px solid #1D4D37;}
+footer #footer_top dl{width: 200px; height: 300px; float: left; margin-top: 30px;}
+footer #footer_top dl.one{margin-left: 200px;}
+footer #footer_top dl dt{font-size: 14px; font-weight: bold; width: 150px; text-align: center;}
+footer #footer_top dl dd a{font-size: 14px; width: 150px; height: 40px; line-height: 40px;
+	text-align: center; color: #999; display: block;}
+footer #footer_top dl dd:hover a{color: #fff;}
+footer #footer_top dl.mid{width: 400px;}
+footer #footer_top dl.mid dt{font-size: 40px; width: 400px; color: #fff; margin-top: 50px;}
+footer #footer_top dl.mid dd{font-size: 14px; width: 400px; color: #fff; margin-top: 20px; 
+	text-align: center; font-weight: lighter;}
+footer #footer_top dl.end{margin-right: 110px;}
+footer #footer_bot{width: 87%; margin-left: 200px;}
+footer #footer_bot p{font-size: 14px; color: #fff;}
+footer #footer_bot p.fir{margin-bottom: 20px; color: #999;}
+footer #footer_bot p.fir a{color: #999;}
+footer #footer_bot p.fir a:hover{color: #fff;}
+
+/*fudong*/
+#fudong{width: 100%; background: rgba(0,0,0,0.8); height: 100px; position: fixed; bottom: 0;}
+#fudong ul li{float: left; font-size: 14px; color: #fff; margin-top: 30px; margin-right: 15px;}
+#fudong ul li input{height: 30px; border:1px solid #000; background: #fff; border-radius: 10px;
+	 width: 100px;}
+#fudong ul li.one{margin-left: 200px; margin-top: 0;}
+#fudong ul li button{width: 120px; height: 30px; line-height: 30px; text-align: center;
+	background:#1D4D37; border-radius: 10px; border:none; color: #fff;}
+#fudong ul li.close{position: absolute; right: 0; top: -10px;}
+
